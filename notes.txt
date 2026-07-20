@@ -1,0 +1,16 @@
+What each folder will eventually do
+backend/ — All of the AI agents, tools, indexing, planning, and execution logic.
+app/ — The actual Python source code for the backend.
+tests/ — Automated tests for the backend.
+scripts/ — Helper scripts, such as initializing the database or indexing a repository.
+requirements.txt — Python packages we'll install.
+main.py — The entry point for our backend API.
+frontend/ — A future Next.js dashboard showing what the AI is doing.
+docker/ — Docker configuration files.
+docs/ — Architecture diagrams, design decisions, and documentation. This is valuable for interviews because it demonstrates engineering thinking, not just coding.
+docker-compose.yml — Starts all project services together later (database, vector database, Redis, backend, frontend, etc.).
+README.md — Project overview, setup instructions, and architecture.
+LICENSE — Open-source license (MIT is a good default).
+
+----------------------------------------------------------------------------------
+
